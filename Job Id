@@ -130,3 +130,11 @@ bC7.TextSize = 14
 bC7.TextScaled = true
 bC7.TextWrapped = true
 bC7.AnchorPoint = Vector2.new(0.5, 0)
+
+-- Expiration Timer (Closes GUI after 30 seconds)
+task.delay(30, function()
+    if gX1 then
+        gX1:Destroy()
+        print("⚠️ Script has expired after 30 seconds!")
+    end
+end)
