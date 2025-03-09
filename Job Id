@@ -1,0 +1,132 @@
+local function scrambleString(input)
+    return input:gsub(".", function(c) return "\\" .. c:byte() end)
+end
+
+local function obfuscatedString(str)
+    return loadstring("return \"" .. scrambleString(str) .. "\"")()
+end
+
+local gX1 = Instance.new(obfuscatedString("ScreenGui"))
+local xF3 = Instance.new(obfuscatedString("Frame"))
+local jY2 = Instance.new(obfuscatedString("TextBox"))
+local pK4 = Instance.new(obfuscatedString("Frame"))
+local nT5 = Instance.new(obfuscatedString("TextButton"))
+local zQ6 = Instance.new(obfuscatedString("Frame"))
+local mL7 = Instance.new(obfuscatedString("TextButton"))
+local wV8 = Instance.new(obfuscatedString("TextButton"))
+
+local eA9 = Instance.new(obfuscatedString("UICorner"))
+local uB1 = Instance.new(obfuscatedString("UICorner"))
+local iC2 = Instance.new(obfuscatedString("UICorner"))
+local oD3 = Instance.new(obfuscatedString("UICorner"))
+local tE4 = Instance.new(obfuscatedString("UICorner"))
+
+gX1.Parent = game.Players.LocalPlayer:WaitForChild(obfuscatedString("PlayerGui"))
+gX1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+xF3.Parent = gX1
+xF3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+xF3.BackgroundTransparency = 0.2
+xF3.Position = UDim2.new(0.35, 0, 0.35, 0)
+xF3.Size = UDim2.new(0.3, 0, 0.3, 0)
+xF3.Draggable = true
+xF3.Selectable = true
+xF3.Active = true
+
+eA9.CornerRadius = UDim.new(0.1, 0)
+eA9.Parent = xF3
+
+jY2.Name = obfuscatedString("Jobinput")
+jY2.Parent = xF3
+jY2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jY2.Position = UDim2.new(0.1, 0, 0.1, 0)
+jY2.Size = UDim2.new(0.8, 0, 0.2, 0)
+jY2.Font = Enum.Font.SourceSans
+jY2.Text = obfuscatedString("JobID")
+jY2.TextColor3 = Color3.fromRGB(150, 150, 150)
+jY2.TextSize = 18
+
+uB1.CornerRadius = UDim.new(0.5, 0)
+uB1.Parent = jY2
+
+pK4.Name = obfuscatedString("CopyFrame")
+pK4.Parent = xF3
+pK4.BackgroundTransparency = 1
+pK4.Position = UDim2.new(0.1, 0, 0.5, 0)
+pK4.Size = UDim2.new(0.35, 0, 0.15, 0)
+
+nT5.Parent = pK4
+nT5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+nT5.Size = UDim2.new(1, 0, 1, 0)
+nT5.Font = Enum.Font.SourceSans
+nT5.Text = obfuscatedString("Copy Job Id")
+nT5.TextColor3 = Color3.fromRGB(255, 255, 255)
+nT5.TextSize = 16
+nT5.MouseButton1Down:Connect(function()
+    setclipboard(tostring(game.JobId))
+    nT5.Text = obfuscatedString("Copied!")
+    wait(0.5)
+    nT5.Text = obfuscatedString("Copy Job Id")
+end)
+
+iC2.CornerRadius = UDim.new(0.3, 0)
+iC2.Parent = nT5
+
+zQ6.Parent = xF3
+zQ6.BackgroundTransparency = 1
+zQ6.Position = UDim2.new(0.55, 0, 0.5, 0)
+zQ6.Size = UDim2.new(0.35, 0, 0.15, 0)
+
+mL7.Parent = zQ6
+mL7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mL7.Size = UDim2.new(1, 0, 1, 0)
+mL7.Font = Enum.Font.SourceSans
+mL7.Text = obfuscatedString("Join Job Id")
+mL7.TextColor3 = Color3.fromRGB(255, 255, 255)
+mL7.TextSize = 16
+mL7.MouseButton1Down:Connect(function()
+    game:GetService(obfuscatedString("TeleportService")):TeleportToPlaceInstance(game.PlaceId, tostring(jY2.Text))
+end)
+
+oD3.CornerRadius = UDim.new(0.3, 0)
+oD3.Parent = mL7
+
+wV8.Parent = xF3
+wV8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+wV8.Position = UDim2.new(0.92, 0, 0, 0)
+wV8.Size = UDim2.new(0.07, 0, 0.07, 0)
+wV8.Font = Enum.Font.SourceSansBold
+wV8.Text = obfuscatedString("X")
+wV8.TextColor3 = Color3.fromRGB(255, 255, 255)
+wV8.TextSize = 20
+wV8.MouseButton1Down:Connect(function()
+    gX1:Destroy()
+end)
+
+tE4.CornerRadius = UDim.new(0.5, 0)
+tE4.Parent = wV8
+
+local function addOutline(vT6)
+    local fY9 = Instance.new(obfuscatedString("UIStroke"))
+    fY9.Color = Color3.fromRGB(255, 255, 255)
+    fY9.Thickness = 2
+    fY9.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    fY9.Parent = vT6
+end
+
+addOutline(nT5)
+addOutline(mL7)
+addOutline(wV8)
+
+local bC7 = Instance.new(obfuscatedString("TextLabel"))
+bC7.Parent = xF3
+bC7.BackgroundTransparency = 1
+bC7.Position = UDim2.new(0.5, 0, 0.9, 0)
+bC7.Size = UDim2.new(0.8, 0, 0.05, 0)
+bC7.Font = Enum.Font.SourceSans
+bC7.Text = obfuscatedString("Creator: Fred & Seventh")
+bC7.TextColor3 = Color3.fromRGB(255, 255, 255)
+bC7.TextSize = 14
+bC7.TextScaled = true
+bC7.TextWrapped = true
+bC7.AnchorPoint = Vector2.new(0.5, 0)
