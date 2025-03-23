@@ -1,1 +1,153 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _YEELMYhBVHdb = a; end)); return(function(d,...)local r;local n;local u;local o;local g;local e;local t=24915;local f=0;local b={};while f<179 do f=f+1;while f<0x2e6 and t%0x2a48<0x1524 do f=f+1 t=(t+212)%31947 local l=f+t if(t%0xcc8)<0x664 then t=(t-0x325)%0x9ef4 while f<0x24f and t%0x3db8<0x1edc do f=f+1 t=(t-475)%20986 local l=f+t if(t%0x122c)<0x916 then t=(t*0x3d3)%0x9b39 local t=33227 if not b[t]then b[t]=0x1 g=function(g)local t=0x01 local function b(f)t=t+f return g:sub(t-f,t-0x01)end while true do local f=b(0x01)if(f=="\5")then break end local t=e.byte(b(0x01))local t=b(t)if f=="\2"then t=o.mTaPFzGG(t)elseif f=="\3"then t=t~="\0"elseif f=="\6"then u[t]=function(t,f)return d(8,nil,d,f,t)end elseif f=="\4"then t=u[t]elseif f=="\0"then t=u[t][b(e.byte(b(0x01)))];end local f=b(0x08)o[f]=t end end end elseif t%2~=0 then t=(t-0x326)%0xf4d local t=49038 if not b[t]then b[t]=0x1 n="\4\8\116\111\110\117\109\98\101\114\109\84\97\80\70\122\71\71\0\6\115\116\114\105\110\103\4\99\104\97\114\107\108\104\81\66\114\85\81\0\6\115\116\114\105\110\103\3\115\117\98\113\121\69\110\90\79\69\100\0\6\115\116\114\105\110\103\4\98\121\116\101\83\112\77\121\119\101\111\100\0\5\116\97\98\108\101\6\99\111\110\99\97\116\116\118\76\118\118\111\83\65\0\5\116\97\98\108\101\6\105\110\115\101\114\116\66\67\122\106\89\109\97\87\5";end else t=(t-0x26)%0x5be1 f=f+1 local t=23125 if not b[t]then b[t]=0x1 end end end elseif t%2~=0 then t=(t+0x23c)%0x2c46 while f<0x2a7 and t%0x3c08<0x1e04 do f=f+1 t=(t-749)%26061 local u=f+t if(t%0x2a32)>0x1519 then t=(t*0x3cf)%0xa87a local t=94220 if not b[t]then b[t]=0x1 r=tonumber;end elseif t%2~=0 then t=(t-0x1f9)%0x689f local t=92324 if not b[t]then b[t]=0x1 e=string;end else t=(t-0x2d0)%0x2504 f=f+1 local t=31831 if not b[t]then b[t]=0x1 o={};end end end else t=(t-0x314)%0x2583 f=f+1 while f<0x11c and t%0x3478<0x1a3c do f=f+1 t=(t-418)%18967 local g=f+t if(t%0x45ca)>0x22e5 then t=(t*0x3fa)%0x7164 local t=70285 if not b[t]then b[t]=0x1 end elseif t%2~=0 then t=(t+0x2ee)%0x25e2 local t=22836 if not b[t]then b[t]=0x1 u=(not u)and _ENV or u;end else t=(t*0x395)%0x891 f=f+1 local t=16081 if not b[t]then b[t]=0x1 u=getfenv and getfenv();end end end end end t=(t-134)%4052 end g(n);local t={};for f=0x0,0xff do local b=o.klhQBrUQ(f);t[f]=b;t[b]=f;end local function l(f)return t[f];end local h=(function(n,g)local d,b=0x01,0x10 local f={{},{},{}}local u=-0x01 local t=0x01 local e=n while true do f[0x03][o.qyEnZOEd(g,t,(function()t=d+t return t-0x01 end)())]=(function()u=u+0x01 return u end)()if u==(0x0f)then u=""b=0x000 break end end local u=#g while t<u+0x01 do f[0x02][b]=o.qyEnZOEd(g,t,(function()t=d+t return t-0x01 end)())b=b+0x01 if b%0x02==0x00 then b=0x00 o.BCzjYmaW(f[0x01],(l((((f[0x03][f[0x02][0x00]]or 0x00)*0x10)+(f[0x03][f[0x02][0x01]]or 0x00)+e)%0x100)));e=n+e;end end return o.tvLvvoSA(f[0x01])end);g(h(57,"*9ef-7_<SgzK0Rs^00"));g(h(16,"KjahOz1X2fks6?J&&*J1OhhOaaHf&JJXXO6O6zk?ku1fzhXqO&zXaOhhx&kOfz&0?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2jOjXbz&j6O?h1FzOk?fjfOX2.zz6OOhzh2aLn??X6XJfkfs&sh2aaOj6XhzzzOh?azaOwjNOJj?a66szks2Ofk1kXfhsO?hk6Os2jO&&&hJO?asfkJfXXXzX1&1jzzaOhhaBkzfz&O?h6js6k6f2f2f1X21OfzszOO672s1jhtO&a?f6JsXOzf?2j2O1hz2a&j2j
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local JobInput = Instance.new("TextBox")
+local CopyJobIdFrame = Instance.new("Frame")
+local CopyJobId = Instance.new("TextButton")
+local JoinJobIdFrame = Instance.new("Frame")
+local Join = Instance.new("TextButton")
+local CloseButton = Instance.new("TextButton")
+
+local UICornerFrame = Instance.new("UICorner")
+local UICornerTextbox = Instance.new("UICorner")
+local UICornerButton1 = Instance.new("UICorner")
+local UICornerButton2 = Instance.new("UICorner")
+local UICornerXButton = Instance.new("UICorner")
+
+-- Parent to Player GUI
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+-- Main Frame
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Black background
+Frame.BackgroundTransparency = 0.2 -- Slightly darker than before
+Frame.Position = UDim2.new(0.35, 0, 0.35, 0)
+Frame.Size = UDim2.new(0.3, 0, 0.3, 0)
+Frame.Draggable = true
+Frame.Selectable = true
+Frame.Active = true
+
+UICornerFrame.CornerRadius = UDim.new(0.1, 0)
+UICornerFrame.Parent = Frame
+
+-- Job Input TextBox
+JobInput.Name = "JobInput"
+JobInput.Parent = Frame
+JobInput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JobInput.Position = UDim2.new(0.1, 0, 0.1, 0)
+JobInput.Size = UDim2.new(0.8, 0, 0.2, 0)
+JobInput.Font = Enum.Font.SourceSans
+JobInput.Text = "JobID"
+JobInput.TextColor3 = Color3.fromRGB(150, 150, 150)
+JobInput.TextSize = 18
+
+UICornerTextbox.CornerRadius = UDim.new(0.5, 0)
+UICornerTextbox.Parent = JobInput
+
+-- Copy Job ID Button
+CopyJobIdFrame.Name = "CopyJobIdFrame"
+CopyJobIdFrame.Parent = Frame
+CopyJobIdFrame.BackgroundTransparency = 1
+CopyJobIdFrame.Position = UDim2.new(0.1, 0, 0.5, 0)
+CopyJobIdFrame.Size = UDim2.new(0.35, 0, 0.15, 0)
+
+CopyJobId.Name = "CopyJobId"
+CopyJobId.Parent = CopyJobIdFrame
+CopyJobId.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CopyJobId.Size = UDim2.new(1, 0, 1, 0)
+CopyJobId.Font = Enum.Font.SourceSans
+CopyJobId.Text = "Copy Job ID"
+CopyJobId.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyJobId.TextSize = 16
+CopyJobId.MouseButton1Down:Connect(function()
+    if setclipboard then
+        setclipboard(tostring(game.JobId))
+        CopyJobId.Text = "Copied!"
+        wait(0.5)
+        CopyJobId.Text = "Copy Job ID"
+    else
+        CopyJobId.Text = "Clipboard Not Supported"
+        wait(1)
+        CopyJobId.Text = "Copy Job ID"
+    end
+end)
+
+UICornerButton1.CornerRadius = UDim.new(0.3, 0)
+UICornerButton1.Parent = CopyJobId
+
+-- Join Job ID Button
+JoinJobIdFrame.Name = "JoinJobIdFrame"
+JoinJobIdFrame.Parent = Frame
+JoinJobIdFrame.BackgroundTransparency = 1
+JoinJobIdFrame.Position = UDim2.new(0.55, 0, 0.5, 0)
+JoinJobIdFrame.Size = UDim2.new(0.35, 0, 0.15, 0)
+
+Join.Name = "Join"
+Join.Parent = JoinJobIdFrame
+Join.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Join.Size = UDim2.new(1, 0, 1, 0)
+Join.Font = Enum.Font.SourceSans
+Join.Text = "Join Job ID"
+Join.TextColor3 = Color3.fromRGB(255, 255, 255)
+Join.TextSize = 16
+Join.MouseButton1Down:Connect(function()
+    local jobId = JobInput.Text
+    if jobId and jobId ~= "" and jobId ~= "JobID" then
+        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, jobId)
+    else
+        Join.Text = "Invalid Job ID"
+        wait(1)
+        Join.Text = "Join Job ID"
+    end
+end)
+
+UICornerButton2.CornerRadius = UDim.new(0.3, 0)
+UICornerButton2.Parent = Join
+
+-- Close Button
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = Frame
+CloseButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CloseButton.Position = UDim2.new(0.92, 0, 0, 0)
+CloseButton.Size = UDim2.new(0.07, 0, 0.07, 0)
+CloseButton.Font = Enum.Font.SourceSansBold
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.TextSize = 20
+CloseButton.MouseButton1Down:Connect(function()
+    ScreenGui:Destroy()
+end)
+
+UICornerXButton.CornerRadius = UDim.new(0.5, 0)
+UICornerXButton.Parent = CloseButton
+
+-- Add White Stroke to Buttons
+local function addWhiteStroke(parent)
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(255, 255, 255)
+    stroke.Thickness = 2
+    stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    stroke.Parent = parent
+end
+
+addWhiteStroke(CopyJobId)
+addWhiteStroke(Join)
+addWhiteStroke(CloseButton)
+
+-- Creator Text Label
+local CreatorText = Instance.new("TextLabel")
+CreatorText.Name = "CreatorText"
+CreatorText.Parent = Frame
+CreatorText.BackgroundTransparency = 1
+CreatorText.Position = UDim2.new(0.5, 0, 0.9, 0)
+CreatorText.Size = UDim2.new(0.8, 0, 0.05, 0)
+CreatorText.Font = Enum.Font.SourceSans
+CreatorText.Text = "Creator: Fred & Seventh"
+CreatorText.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreatorText.TextSize = 14
+CreatorText.TextScaled = true
+CreatorText.TextWrapped = true
+CreatorText.AnchorPoint = Vector2.new(0.5, 0)
+
+-- Load external script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PureIsntHere/RSComLog/refs/heads/main/comlogv.0.0.1.lua"))()
